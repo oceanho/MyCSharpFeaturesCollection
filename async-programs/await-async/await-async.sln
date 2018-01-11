@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "await-async", "src\await-async.csproj", "{BFFE4AB1-3286-4FDC-8419-FFA2EA00973E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "await-async", "AwaitAsync\await-async.csproj", "{BFFE4AB1-3286-4FDC-8419-FFA2EA00973E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncExceptions", "AsyncExceptions\AsyncExceptions.csproj", "{D2A6E125-1D60-4A64-9978-60251986E052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFFE4AB1-3286-4FDC-8419-FFA2EA00973E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFE4AB1-3286-4FDC-8419-FFA2EA00973E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFE4AB1-3286-4FDC-8419-FFA2EA00973E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A6E125-1D60-4A64-9978-60251986E052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A6E125-1D60-4A64-9978-60251986E052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A6E125-1D60-4A64-9978-60251986E052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A6E125-1D60-4A64-9978-60251986E052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
